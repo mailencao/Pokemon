@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Pokemons from './Componentes/Pokemons'
-
-
+import Navbar from './Componentes/Navbar';
+import Buscador from './Componentes/Buscador';
 
 function App() {
   //variables de primer url page y array donde estaran los datos de los pokemons.
@@ -40,8 +40,9 @@ function App() {
     console.log(pokemons);
   }, [pokemons]);
   
-  return  
-  <>
+  return <>
+  <Navbar />
+  <Buscador />
   <Pokemons pokemons={pokemons} />
   </>
 };

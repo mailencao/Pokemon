@@ -1,0 +1,49 @@
+/* CARDS */
+.padreCard{
+    margin: 4%;
+    margin-top: 10%;
+    padding: 3% 1% 3% 0;
+    background-color: #c1121f;
+    border-radius: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+
+.divContainer{
+    margin: 3%;
+    min-width: 350px;
+    background-color: #fdf0d5;
+    border: 10px solid #780000;
+    border-radius: 25px;
+    font-family: 'Silkscreen', sans-serif;
+    color: #79aac4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    filter: drop-shadow(0 0 10px
+   rgba(67, 14, 14, 0.736));
+}
+
+div.nameId{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #003049;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+
+img{
+   width: 250px;
+   height: 250px;
+   filter: drop-shadow(0 0 10px
+   rgba(53, 53, 50, 0.736));
+   margin: 5px;
+}

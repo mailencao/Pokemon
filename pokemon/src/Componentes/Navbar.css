@@ -1,0 +1,14 @@
+nav{
+    background-color:#79aac4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 7px 35px rgb(31, 35, 49);
+
+}
+
+.logoPokemon{
+    margin: 0;
+    width: auto;
+    height: 230px;
+}
