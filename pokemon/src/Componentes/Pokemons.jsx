@@ -1,3 +1,4 @@
+import React from 'react';
 import './PokeCards.css'
 
 function Pokemons({ pokemons }) {
@@ -11,7 +12,15 @@ function Pokemons({ pokemons }) {
                    <div className='nameId'>
                     <h2 id='number'>#{pokemons.id}</h2> 
                     <h2 id='name'>{pokemons.name}</h2>
-                   </div>              
+                   </div> 
+                   <div className='spriteContainer'>
+                     <div className='spritesTexto'> 
+                       <p>Sprite en juegos</p>
+                     </div>
+                     <div className='spritesGame'>
+                       <img src={pokemons.sprites.front_default} alt='sprite standar en juegos'/>
+                     </div>   
+                   </div>        
                  </div>
                </div>
             </div>
