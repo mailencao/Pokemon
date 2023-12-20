@@ -43,3 +43,26 @@
     opacity: 0.9;
 }
 
+.divBorrar{
+    display: flex;
+    justify-content: center;
+}
+
+.botonBorrar{
+    padding: 20px 35px;
+}
+
+/*/BOTONERA SIG-ANT/*/
+
+.botoneraSup{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5% 1% 5% 
+
+}
+
+.botonera{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 4% 
+}

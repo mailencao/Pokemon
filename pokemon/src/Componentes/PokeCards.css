@@ -1,7 +1,6 @@
 /* CARDS */
 .padreCard{
-    margin: 4%;
-    margin-top: 5%;
+    margin: 2% 3% 2% 3%;
     padding: 5% 1% 5% 0;
     background-color: #c1121f;
     border-radius: 35px;
@@ -12,7 +11,7 @@
 
 .divContainer{
     margin: 3%;
-    min-width: 350px;
+    min-width: 330px;
     background-color: #fdf0d5;
     border: 10px solid #780000;
     border-radius: 25px;

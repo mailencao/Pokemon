@@ -44,9 +44,11 @@ function Buscador() {
       {pokemonData && (
         <div>
           <Pokemons  pokemons={[pokemonData]} />
-          <button type='button' onClick={handleReset} className='boton botonBorrar'>
-           borrar
-          </button>
+           <div className='divBorrar'>
+            <button type='button' onClick={handleReset} className='boton botonBorrar'>
+             borrar
+            </button>
+           </div>
         </div>
       )}
       </>
